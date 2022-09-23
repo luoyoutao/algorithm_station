@@ -14,6 +14,3 @@ void SelectSort(int arr[], int len) {
 		}
 	}
 }
-
-
-
