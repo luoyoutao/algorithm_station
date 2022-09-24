@@ -11,8 +11,8 @@ int BinarySearch(int arr[], int k, int l, int r) {
     if(arr[mid] == k) {
         return mid;
     } else if(k > arr[mid]) {
-        return search(arr, k, mid + 1, r);
+        return BinarySearch(arr, k, mid + 1, r);
     } else {
-        return search(arr, k, l, mid - 1);
+        return BinarySearch(arr, k, l, mid - 1);
     }
 }
