@@ -5,7 +5,7 @@ using namespace std;
  * 参数：带查找数组、查找元素、左边界、右边界
  * 返回值：查找成功返回位置，否则返回-1 
  */
-int search(int arr[], int k, int l, int r) {
+int BinarySearch(int arr[], int k, int l, int r) {
     if(l > r) return -1;
     int mid = l + ((r - l) >> 1);
     if(arr[mid] == k) {
