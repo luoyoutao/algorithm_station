@@ -1,3 +1,8 @@
+/** 
+ * @brief: 在一个出现k次，多个出现m次的数组中查找出现k次的数
+ * @author: luoyoutao
+ * @date: 2022-09-25
+ */
 #include<iostream>
 #include<vector>
 #include<ctime>
@@ -86,7 +91,7 @@ int FindKTimesData(vector<int>& arr, int m) {
  * 时间：2022.09.25
  */
 bool Test(vector<int>& arr) {
-    int test_times = 500;  // 测试500次
+    int test_times = 10;  // 测试500次
     while(test_times --) {
         vector<int>km = ProduceSimple(arr);
         int re_a = FindKTimesData(arr, km[1]);
