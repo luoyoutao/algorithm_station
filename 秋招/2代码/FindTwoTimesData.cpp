@@ -1,3 +1,8 @@
+/** 
+ * @brief: 在两个出现奇数次的数，其余出现偶数次的数组中查找这两出现奇数次的数
+ * @author:luoyoutao
+ * @date:2022-09-25
+ */
 #include<iostream>
 #include<vector>
 #include<ctime>
